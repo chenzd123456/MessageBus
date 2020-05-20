@@ -7,7 +7,7 @@
 
 #include "MessageBus.h"
 
-#ifdef _WIN32 && _WIN64
+#ifdef _WIN32
 #include <windows.h>
 #elif __linux__
 #include <unistd.h>
